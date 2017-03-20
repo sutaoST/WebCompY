@@ -1,0 +1,266 @@
+/*导航*/
+*{
+    margin:0;
+    padding: 0;
+    /*font-family: "宋体"*/   
+}
+
+.navbar-logo{
+    float: left;
+    padding: 0 65px;
+    font-size: 40px;
+    line-height: 100px;
+    height: 100px;
+}
+#navbar-list li a{
+    font-size:14px;
+    color: #000; 
+    padding-bottom: 10px;
+}
+#navbar-list li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.service{
+   margin:50px auto; 
+   height: 70px;
+}
+.servive-scope{
+    font-size: 40px;
+    font-weight: 400;
+}
+.servive-scope a{
+    color: red;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}
+.range{
+    font-size: 20px;
+   
+}
+.range-all{
+    width: 15px;
+    height: 1px;
+    background-color: red;
+    display: inline-block;
+    margin:5px 10px;
+}
+.pics{
+    border-radius: 0px;
+    padding: 0px;
+    border: 0px solid transparent;
+}
+.pics p{
+    color: #9A9899;
+}
+.pics a{
+    text-decoration: none;
+    color: #000;
+}
+.pics_imgs img:hover{
+    transition: all .5s;
+}
+.pics_imgs img:hover{
+    transform:scale(1.5,1.5) ;}
+.pics_imgs{
+    width: 270px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+}
+.w{
+    width: 100%;
+    height: 170px;
+    background-color: #54667A;
+    padding: 55px 0px;
+}
+.imgs-box{
+    width: 100%;
+    height: 495px;
+    margin:0 auto;
+}
+.slider-imgs{
+    width: 20%;
+    height: 50%;
+    float: left;
+    position:relative;
+}
+.photos{
+    width: 100%;
+    height: 247px;
+}
+.yulan{
+    width: 100%;
+    height:100%;
+    position:absolute;
+    z-index:999;
+    left:0;
+    top:0;
+}
+.yulan:hover{
+    background:rgba(255,0,0,0.5);
+    cursor: pointer;
+}
+.view{
+    margin-top:20%;
+    margin-left:25%;
+    display:none; 
+}
+.more{
+    margin-left:45%;
+    margin-top:5%;
+    display: none;
+}
+.slider_box{
+    height: 155px;
+    width: 100%;
+}
+.slider_box p{
+    font-size: 16px;
+}
+.news_box{
+    width: 100%; 
+}
+.news{
+    position: relative;
+    width: 100%;
+}
+.information{
+   /* background-color: red;*/
+    width: 100%;
+    height: 920px;
+    position:absolute;
+    top:0;
+}
+.fh{
+    color: #fff;
+    padding:0 5px;
+}
+.introduces-all{
+    width:1200px;
+    height: 595px;
+    /*background-color: pink;*/
+    margin:40px auto; 
+}
+.introduce-left{
+    width: 580px;
+    height:595px; 
+    background:rgba(255,255,255,0.25);
+    padding:20px 25px;
+    float: left;
+}
+.introduce-left h4,.introduce-left p{
+    color: #fff;
+}
+.introduce-right{
+    width: 580px;
+    height: 595px;
+    /*background-color: red;*/
+    float: right;
+}
+/*新闻资讯*/
+#panei-border{
+    border-radius: 0;
+    background:rgba(255,255,255,0.25);
+    margin-bottom: 10px;
+}
+#icons{
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: #89A5B3;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    float: left;
+    margin-right:20px;
+    cursor: pointer;
+}
+.systems{
+    padding:0;
+    margin:0;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    cursor: pointer;
+}
+.most{
+    width: 120px;
+    height: 40px;
+    border:1px solid #fff;
+    margin:0 auto;
+    clear:both;
+}
+.most a{
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+/*合作伙伴*/
+.arrow{
+    width: 40px;
+    margin-top:3%;
+    border:1px solid #000;
+    float:left;
+}
+.arrow a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    
+}
+.parters{
+    width: 152px;
+    height: 100px;
+    float: left;
+    margin:0 14px;
+    border:1px solid #DDDDDD;
+}
+.bott{
+    background-color: #DE6763;
+    width: 100%;
+    height: 320px;
+    padding: 40px 0px;
+}
+.pic{
+    width: 250px;
+    height: 70px;
+    border-bottom: 1px solid #fff;
+
+}
+.pic img{
+    float: left;
+    margin-right: 20px;
+}
+.range li{
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    border:1px solid #fff;
+    float: left;
+    margin-bottom:15px;
+    margin-left:20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+#gly{
+    color:#CBCDCC;
+    margin-right:10px; 
+}
+.live{
+    color: #DFDDDE;
+}
+.footer p{
+    color: #989A99;
+}
